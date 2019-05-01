@@ -492,7 +492,7 @@
               }, 6000);
           });
 //autoscroll after 5 seconds
-          $(function () {
+          /*$(function () {
               setInterval(function(){
                   var featureAll = document.querySelectorAll(".feature");
 
@@ -501,7 +501,7 @@
                       node.style.transform="translateX(-100%)";
                   });
               }, 5000);
-          });
+          });*/
 
     //function to scroll down to about section
           $(".scrollAbt").click(function() {
